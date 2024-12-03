@@ -15,7 +15,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className={`fixed px-6 w-full z-50 transition-all duration-300 ${
+    <header className={`fixed lg:px-6 w-full z-50 transition-all duration-300 ${
       scrolled ? 'bg-black/30 backdrop-blur-lg shadow-md' : 'bg-transparent'
     }`}>
       <nav className="container px-6 py-4 mx-auto">
